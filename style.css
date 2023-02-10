@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+    font-family:  sans-serif
+}
+
+.div-elements{
+    background-color: #D8CDCB ;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.home-page{
+    font-size: 1.3rem; 
+    margin-top: 125px; 
+    color: red;  
+}
+
+.app-body{
+    background-color: #D8CDCB ;
+    border-radius: 10px;
+    padding: 19px;
+    margin: 5px auto;
+}
+
+.btn-element{
+    margin-left: 20px auto;
+    border-radius: 10px;
+    padding: auto 4px;
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.app-loading{
+    font-size: 2rem;
+    color: green;
+}
+
+.reset-btn{
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.questions{
+    color: royalblue;
+    background-color: #D8CDCB;
+}
+
+.check-name{
+    border-radius: 5px;
+    color: whitesmoke ;
+    background-color: #3E3CAF;
+    padding: 5px 5px;
+    cursor: pointer;
+    
+}
+.score-result{
+    background-color: #D8CDCB;
+    color: royalblue;
+    font-weight: 900;
+}
+
+.check-name :focus {
+    outline: none;
+}
+
+.check-name :active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
